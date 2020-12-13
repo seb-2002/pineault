@@ -1,0 +1,170 @@
+/* 
+Theme Name: Pineault
+Author: Benjamin Jacques / Seb Kann
+Author URI:  https://github.com/seb-2002
+Description: Custom theme for Emile Pineault
+Version: 1.0
+*/
+
+*,
+*::after,
+*::before {
+  /*this universal selector does a reset so that
+	we're not working with diverse browser defaults*/
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /*border-box means the borders and the paddings are
+	no longer added to the total width and height we
+	specify of a box*/
+}
+
+html {
+  font-size: 62.5%;
+  /* good strategy because we just have to divide the px measurements to rem. 62.5% of 16px, the default, is 10px */
+}
+
+body {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  cursor: default;
+}
+
+@font-face {
+  font-family: "NeueMontreal-Regular";
+  src: url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("./font//NeueMontreal-Regular-web//NeueMontreal-Regular.woff2")
+      format("woff2"),
+    url("../font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff")
+      format("woff");
+  /* Pretty Modern Browsers */
+}
+
+/* @font-face {
+  font-family: "HKSentiments-Bold";
+  src: url("./font/hk_sentiments/HKSentiments-Bold.eot");
+  /* IE9 Compat Modes */
+/* src: url("./font/hk_sentiments/HKSentiments-Bold.woff2") format("woff2"), url("../font/hk_sentiments/HKSentiments-Bold.woff") format("woff"); */
+/* Pretty Modern Browsers  */
+
+body {
+  font-family: "NeueMontreal-Regular", sans-serif;
+  font-size: 1.2rem;
+}
+
+.footer__content--title {
+  font-size: 1.2rem;
+}
+
+.content .table-container .table-item {
+  color: grey;
+  transition: all 0.3s ease;
+  padding: 0.25rem 0;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+}
+.content .table-container .table-item:hover {
+  color: #ffdd00;
+}
+
+@media only screen and (min-width: 576px) {
+  p.footer__content--title {
+    font-size: 2rem;
+  }
+  p.footer__content--paragraph {
+    font-size: 1.5rem;
+  }
+  .content .table-container .table-item {
+    font-size: 2rem;
+  }
+}
+
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.content {
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.content .table-container {
+  position: fixed;
+  width: 85%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.content .table-container .table-item {
+  overflow: hidden;
+  cursor: default;
+  text-align: center;
+}
+.content .table-container .table-item-2 {
+  display: none;
+}
+.content .table-container hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+@media only screen and (min-width: 768px) {
+  .table-container .table-item-2 {
+    display: inline;
+  }
+}
+
+.footer {
+  margin: 0 5%;
+  padding-bottom: 5%;
+  pointer-events: none;
+}
+
+div[class^="img"] {
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1000;
+  position: relative;
+  pointer-events: none;
+}
+
+.img-top {
+  height: 211vw;
+  background-image: url(./img/top_for_html.png);
+}
+
+.img-btm {
+  background-image: url(./img/bottom_for_html.png);
+  height: 51.83vw;
+}
+.header__img,
+.coloph .btm__img {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  z-index: 1000;
+  background-color: #f6f6f6;
+}
+
+.red-button {
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  background-color: red;
+}
+.red-button:hover {
+  background-color: rebeccapurple;
+}
