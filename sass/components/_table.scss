@@ -1,0 +1,39 @@
+.content {
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  .table-container {
+    position: fixed;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    .table-item {
+      overflow: hidden;
+      cursor: $main-cursor;
+      text-align: center;
+      &-2 {
+        display: none;
+      }
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #333;
+      background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .content .table-container {
+    .table-item {
+      &-2 {
+        display: inline;
+      }
+    }
+  }
+}

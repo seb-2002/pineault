@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "NeueMontreal-Regular";
+  src: url("../font/NeueMontreal-Regular-web/NeueMontreal-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../font//NeueMontreal-Regular-web//NeueMontreal-Regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff")
+      format("woff"); /* Pretty Modern Browsers */
+}
+// @font-face {
+//   font-family: 'HKSentiments-Black';
+//   src: url('../font/hk_sentiments/HKSentiments-Black.eot'); /* IE9 Compat Modes */
+//   src: url('../font/hk_sentiments/HKSentiments-Black.woff2') format('woff2'), /* Super Modern Browsers */
+//        url('../font/hk_sentiments/HKSentiments-Black.woff') format('woff'); /* Pretty Modern Browsers */
+// }
+// @font-face {
+//   font-family: 'HKSentiments-Medium';
+//   src: url('../font/hk_sentiments/HKSentiments-Medium.eot'); /* IE9 Compat Modes */
+//   src: url('../font/hk_sentiments/HKSentiments-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+//        url('../font/hk_sentiments/HKSentiments-Medium.woff') format('woff'); /* Pretty Modern Browsers */
+// }
+// @font-face {
+//   font-family: 'HKSentiments-Light';
+//   src: url('../font/hk_sentiments/HKSentiments-Light.eot'); /* IE9 Compat Modes */
+//   src: url('../font/hk_sentiments/HKSentiments-Light.woff2') format('woff2'), /* Super Modern Browsers */
+//        url('../font/hk_sentiments/HKSentiments-Light.woff')format('woff'); /* Pretty Modern Browsers */
+// }
+@font-face {
+  font-family: "HKSentiments-Bold";
+  src: url("../font/hk_sentiments/HKSentiments-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../font/hk_sentiments/HKSentiments-Bold.woff2") format("woff2"),
+    /* Super Modern Browsers */
+      url("../font/hk_sentiments/HKSentiments-Bold.woff") format("woff"); /* Pretty Modern Browsers */
+}
+
+body {
+  font-family: $fontFamily-body;
+  font-size: $fontSize-small;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.footer {
+  &__content {
+    &--title {
+      font-size: $fontSize-body;
+    }
+  }
+}
+
+.content {
+  .table-container {
+    .table-item {
+      color: $col-text-table;
+      transition: all 0.3s ease;
+      padding: 0.25rem 0;
+      margin-bottom: 0px;
+      font-size: $fontSize-body;
+      &:hover {
+        color: $col-hover;
+        //transform: scale(1.01) translateY(-.03rem);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  p.footer {
+    &__content {
+      &--title {
+        font-size: $fontSize-body-sm;
+      }
+      &--paragraph {
+        font-size: $fontSize-small-sm;
+      }
+    }
+  }
+
+  .content {
+    .table-container {
+      .table-item {
+        font-size: $fontSize-body-sm;
+      }
+    }
+  }
+}

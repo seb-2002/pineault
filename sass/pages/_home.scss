@@ -1,0 +1,35 @@
+div[class^="img"] {
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1000;
+  position: relative;
+  pointer-events: none;
+}
+.img-top {
+  height: 211vw;
+  background-image: url(./img/top_for_html.png);
+}
+.img-btm {
+  background-image: url(./img/bottom_for_html.png);
+  height: 51.83vw;
+}
+
+.header__img,
+.coloph .btm__img {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  z-index: 1000;
+  background-color: $col-background;
+}
+
+.red-button {
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  background-color: red;
+  &:hover {
+    background-color: rebeccapurple;
+  }
+}

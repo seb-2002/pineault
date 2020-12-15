@@ -3,9 +3,9 @@
 // Adding CSS and JS files
 
 function pineault_setup() {
+  wp_enqueue_style('bootstrap', get_theme_file_uri() . '/bootstrap.css', NULL, microtime());
   wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime());
 
-  wp_enqueue_style('bootstrap', get_theme_file_uri() . '/bootstrap.css', NULL, microtime());
 
   wp_enqueue_style('aos.css', get_theme_file_uri() . '/node_modules/aos/dist/aos.css', NULL, microtime());
 

@@ -4,7 +4,8 @@
   "description": "A custom WP theme for Emile Pineault",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss style.css -w"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/seb-2002/pineault#readme",
   "dependencies": {
     "aos": "^2.3.4"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
   }
 }

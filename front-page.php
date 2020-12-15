@@ -23,10 +23,11 @@
         ?>
 
            <a href="<?php the_permalink(); ?>">
-            <div class="d-flex table-main align-items-center flex-column flex-md-row">
-        <p class="table-item table-item-1"> <?php the_title(); ?> </p>
-        <div class="table-item table-item-2"> &nbsp; / &nbsp; </div>
-        <p class="table-item table-item-3"> <?php the_excerpt (); ?></p>
+            <div class="d-flex table-main align-items-center flex-column flex-md-row table-item">
+        <p class="table-item-1"> <?php the_title(); ?> </p>
+        <p class="table-item-2"> &nbsp; / &nbsp; </p>
+        <p class="table-item-3"> <?php echo get_the_excerpt(); ?> </p>
+        
     </div>
     </a>
     <hr>
@@ -35,6 +36,7 @@
           <?php };
          
          wp_reset_query(); ?>
+
 
       
  

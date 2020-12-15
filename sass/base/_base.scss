@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  /*this universal selector does a reset so that
+	we're not working with diverse browser defaults*/
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /*border-box means the borders and the paddings are
+	no longer added to the total width and height we
+	specify of a box*/ }
+
+html {
+  font-size: 62.5%;
+  /* good strategy because we just have to divide the px measurements to rem. 62.5% of 16px, the default, is 10px */ }
+
+body {
+  box-sizing: border-box; 
+ position: relative;
+ width: 100%;
+ cursor: $main-cursor;
+}
