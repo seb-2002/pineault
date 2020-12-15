@@ -22,16 +22,16 @@ body {
 
 @font-face {
   font-family: "NeueMontreal-Regular";
-  src: url("../font/NeueMontreal-Regular-web/NeueMontreal-Regular.eot");
+  src: url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("../font//NeueMontreal-Regular-web//NeueMontreal-Regular.woff2") format("woff2"), url("../font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff") format("woff");
+  src: url("./font//NeueMontreal-Regular-web//NeueMontreal-Regular.woff2") format("woff2"), url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff") format("woff");
   /* Pretty Modern Browsers */ }
 
 @font-face {
   font-family: "HKSentiments-Bold";
-  src: url("../font/hk_sentiments/HKSentiments-Bold.eot");
+  src: url("./font/hk_sentiments/HKSentiments-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("../font/hk_sentiments/HKSentiments-Bold.woff2") format("woff2"), url("../font/hk_sentiments/HKSentiments-Bold.woff") format("woff");
+  src: url("./font/hk_sentiments/HKSentiments-Bold.woff2") format("woff2"), url("./font/hk_sentiments/HKSentiments-Bold.woff") format("woff");
   /* Pretty Modern Browsers */ }
 
 body {
@@ -54,6 +54,9 @@ a {
   font-size: 1.2rem; }
   .content .table-container .table-item:hover {
     color: #ffdd00; }
+
+.heading__project a.btn__home {
+  font-size: 2rem; }
 
 @media only screen and (min-width: 576px) {
   p.footer__content--title {
@@ -134,3 +137,9 @@ div[class^="img"] {
   background-color: red; }
   .red-button:hover {
     background-color: rebeccapurple; }
+
+.heading__project a.btn__home {
+  position: fixed;
+  transform: rotate(270deg);
+  top: 5rem;
+  left: 4rem; }
