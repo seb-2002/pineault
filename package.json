@@ -1,0 +1,22 @@
+{
+  "name": "pineault",
+  "version": "1.0.0",
+  "description": "A custom WP theme for Emile Pineault",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seb-2002/pineault.git"
+  },
+  "author": "Sebastian Kann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seb-2002/pineault/issues"
+  },
+  "homepage": "https://github.com/seb-2002/pineault#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

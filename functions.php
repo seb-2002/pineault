@@ -5,13 +5,16 @@
 function pineault_setup() {
   wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime());
 
-  wp_enqueue_style('bootstrap', get_theme_file_uri('/bootstrap.css'), NULL, microtime());
+  wp_enqueue_style('bootstrap', get_theme_file_uri() . '/bootstrap.css', NULL, microtime());
 
-  wp_register_script('custom_script', get_theme_file_uri('/js/custom_script.js'), array( 'jquery' ));
-  wp_enqueue_script('custom_script');
+  wp_enqueue_style('aos.css', get_theme_file_uri() . '/node_modules/aos/dist/aos.css', NULL, microtime());
+
+ 
+  wp_enqueue_script('jquery');
  
 
   wp_enqueue_script('boostrap.js', "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js", NULL, microtime(), true);
+  wp_enqueue_script('aos.js', get_theme_file_uri () . '/node_modules/aos/dist/aos.js', NULL, microtime(), true);
 
   wp_enqueue_script('main', get_theme_file_uri('/js/main.js'), NULL, microtime(), true);
 

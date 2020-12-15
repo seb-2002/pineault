@@ -57,7 +57,9 @@
 
        <div class="container">
     <div class="footer fixed-bottom">
-        <div class="row footer__content" >
+        <div class="row footer__content" 
+        data-aos="fade-up" data-aos-anchor="#trigger-footer"  data-aos-duration="800"
+        >
             <div class="col-md">
                 <p class="footer__content--title">
                     Emile Pineault
