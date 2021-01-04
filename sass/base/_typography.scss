@@ -1,7 +1,7 @@
 @font-face {
   font-family: "NeueMontreal-Regular";
   src: url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.eot"); /* IE9 Compat Modes */
-  src: url("./font//NeueMontreal-Regular-web//NeueMontreal-Regular.woff2")
+  src: url("./font//NeueMontreal-Regular-web/NeueMontreal-Regular.woff2")
       format("woff2"),
     /* Super Modern Browsers */
       url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff")
@@ -10,10 +10,10 @@
 
 @font-face {
   font-family: "HKSentiments-Bold";
-  src: url("./font/hk_sentiments/HKSentiments-Bold.eot"); /* IE9 Compat Modes */
-  src: url("./font/hk_sentiments/HKSentiments-Bold.woff2") format("woff2"),
+  src: url("./font/HKSentiments-web/HKSentiments-Bold.eot"); /* IE9 Compat Modes */
+  src: url("./font/HKSentiments-web/HKSentiments-Bold.woff2") format("woff2"),
     /* Super Modern Browsers */
-      url("./font/hk_sentiments/HKSentiments-Bold.woff") format("woff"); /* Pretty Modern Browsers */
+      url("./font/HKSentiments-web/HKSentiments-Bold.woff") format("woff"); /* Pretty Modern Browsers */
 }
 
 body {
@@ -26,6 +26,10 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+.sentiments {
+  font-family: "HKSentiments-Bold", sans-serif;
 }
 
 .footer {
