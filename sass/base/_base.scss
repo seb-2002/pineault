@@ -1,3 +1,13 @@
+@charset "UTF-8";
+/*
+Theme Name: Pineault
+Theme URI: https://github.com/seb-2002/pineault
+Author: Sebastian Kann + Benjamin Jacques
+Author URI: https://github.com/seb-2002
+Description: A custon WP theme for Emile Pineault
+Version: 1.0
+ */
+
 *,
 *::after,
 *::before {
@@ -8,15 +18,17 @@
   box-sizing: inherit;
   /*border-box means the borders and the paddings are
 	no longer added to the total width and height we
-	specify of a box*/ }
+	specify of a box*/
+}
 
 html {
   font-size: 62.5%;
-  /* good strategy because we just have to divide the px measurements to rem. 62.5% of 16px, the default, is 10px */ }
+  /* good strategy because we just have to divide the px measurements to rem. 62.5% of 16px, the default, is 10px */
+}
 
 body {
-  box-sizing: border-box; 
- position: relative;
- width: 100%;
- cursor: $main-cursor;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  cursor: $main-cursor;
 }
