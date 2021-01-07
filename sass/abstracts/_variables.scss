@@ -9,8 +9,8 @@ $fontSize-body: 1.2rem;
 $fontSize-body-sm: 2rem;
 $fontSize-small: 1.2rem;
 $fontSize-small-sm: 1.5rem;
-$fontFamily-body: "NeueMontreal-Regular", sans-serif;
+$fontFamily-body: "NeueMontreal", sans-serif;
 $font-Family-titles: "HKSentiments-Bold", sans-serif;
 
 // Cursor
-$main-cursor: default;
+$main-cursor: url("./img/ep_cursor_small.png"), default;

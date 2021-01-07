@@ -26,14 +26,29 @@ body {
   box-sizing: border-box;
   position: relative;
   width: 100%;
-  cursor: default; }
+  cursor: url("./img/ep_cursor_small.png"), default; }
+
+a {
+  cursor: url("./img/ep_cursor_small.png"), default; }
 
 @font-face {
-  font-family: "NeueMontreal-Regular";
+  font-family: "NeueMontreal";
   src: url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("./font//NeueMontreal-Regular-web/NeueMontreal-Regular.woff2") format("woff2"), url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff") format("woff");
-  /* Pretty Modern Browsers */ }
+  src: url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff2") format("woff2"), url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff") format("woff");
+  /* Pretty Modern Browsers */
+  font-weight: normal; }
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("./font/NeueMontreal-Regular-web/NeueMontreal-Bold.otf") format("opentype");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("./font/NeueMontreal-Regular-web/NeueMontreal-BoldItalic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic; }
 
 @font-face {
   font-family: "HKSentiments-Bold";
@@ -43,7 +58,7 @@ body {
   /* Pretty Modern Browsers */ }
 
 body {
-  font-family: "NeueMontreal-Regular", sans-serif;
+  font-family: "NeueMontreal", sans-serif;
   font-size: 1.2rem; }
 
 a {
@@ -98,7 +113,7 @@ a {
     overflow: hidden; }
     .content .table-container .table-item {
       overflow: hidden;
-      cursor: default;
+      cursor: url("./img/ep_cursor_small.png"), default;
       text-align: center; }
       .content .table-container .table-item-2 {
         display: none; }

@@ -1,11 +1,26 @@
 @font-face {
-  font-family: "NeueMontreal-Regular";
+  font-family: "NeueMontreal";
   src: url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.eot"); /* IE9 Compat Modes */
-  src: url("./font//NeueMontreal-Regular-web/NeueMontreal-Regular.woff2")
+  src: url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff2")
       format("woff2"),
     /* Super Modern Browsers */
       url("./font/NeueMontreal-Regular-web/NeueMontreal-Regular.woff")
       format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("./font/NeueMontreal-Regular-web/NeueMontreal-Bold.otf")
+    format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("./font/NeueMontreal-Regular-web/NeueMontreal-BoldItalic.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
