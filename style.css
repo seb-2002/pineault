@@ -188,3 +188,25 @@ div[class^="img"] {
 .the-credits {
   margin-top: 4rem;
   margin-bottom: 4rem; }
+
+.the-language {
+  display: none; }
+
+.hr {
+  margin-bottom: 1rem; }
+
+.hr-wide {
+  margin-bottom: 1rem;
+  display: none; }
+
+@media only screen and (min-width: 375px) {
+  .hr {
+    display: none; }
+  .hr-wide {
+    display: block; } }
+
+@media only screen and (min-width: 568px) {
+  .hr-wide {
+    display: none; }
+  .the-language {
+    display: block; } }
