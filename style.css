@@ -74,7 +74,7 @@ a {
   font-size: 1.2rem; }
 
 .content .table-container .table-item {
-  color: grey;
+  color: #2c2c2d;
   transition: all 0.3s ease;
   padding: 0.25rem 0;
   margin-bottom: 0px;
@@ -100,9 +100,7 @@ a {
   p.footer__content--title {
     font-size: 2rem; }
   p.footer__content--paragraph {
-    font-size: 1.5rem; }
-  .content .table-container .table-item {
-    font-size: 2rem; } }
+    font-size: 1.5rem; } }
 
 @keyframes moveInUp {
   0% {
@@ -123,20 +121,22 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden; }
-    .content .table-container .table-item {
+    .content .table-container p {
       overflow: hidden;
       cursor: url("./img/ep_cursor_small.png"), default;
-      text-align: center; }
-      .content .table-container .table-item-2 {
+      text-align: center;
+      margin-bottom: 0.2rem;
+      margin-top: 0.2rem; }
+      .content .table-container p.table-item-2 {
         display: none; }
     .content .table-container hr {
       border: 0;
       height: 1px;
       background: #333;
-      background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+      margin: 0px; }
 
 @media only screen and (min-width: 768px) {
-  .content .table-container .table-item-2 {
+  .content .table-container p.table-item-2 {
     display: inline; } }
 
 .footer {
@@ -175,6 +175,11 @@ div[class^="img"] {
   background-color: red; }
   .red-button:hover {
     background-color: rebeccapurple; }
+
+.column-1,
+.column-2 {
+  width: 50%;
+  display: flex; }
 
 .container .heading__project .btn__home i {
   color: #2c2c2d; }

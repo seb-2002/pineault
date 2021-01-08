@@ -23,13 +23,20 @@
         ?>
 
            <a href="<?php the_permalink(); ?>">
+
+
             <div class="d-flex table-main align-items-center flex-column flex-md-row table-item">
-        <p class="table-item-1"> <?php the_title(); ?> </p>
-        <p class="table-item-2"> &nbsp; / &nbsp; </p>
-        <p class="table-item-3"> <?php echo get_the_excerpt(); ?> </p>
+        <div class="column-1">
+            <p class="table-item-1"> <?php the_title(); ?> </p>
+            <!-- <p class="table-item-2"> &nbsp; / &nbsp; </p> -->
+        </div>
+        <div class="column-2">
+            <p class="table-item-3"> <?php echo get_the_excerpt(); ?> </p>
+        </div>
         
     </div>
     </a>
+
     <hr>
          
 
@@ -52,13 +59,20 @@
         ?>
 
            <a href="<?php the_permalink(); ?>">
+
+
             <div class="d-flex table-main align-items-center flex-column flex-md-row table-item">
-        <p class="table-item-1"> <?php the_title(); ?> </p>
-        <p class="table-item-2"> &nbsp; / &nbsp; </p>
-        <p class="table-item-3"> <?php echo get_the_excerpt(); ?> </p>
+        <div class="column-1">
+            <p class="table-item-1"> <?php the_title(); ?> </p>
+            <!-- <p class="table-item-2"> &nbsp; / &nbsp; </p> -->
+        </div>
+        <div class="column-2">
+            <p class="table-item-3"> <?php echo get_the_excerpt(); ?> </p>
+        </div>
         
     </div>
     </a>
+
     <hr>
          
 
@@ -81,19 +95,99 @@
         ?>
 
            <a href="<?php the_permalink(); ?>">
+
+
             <div class="d-flex table-main align-items-center flex-column flex-md-row table-item">
-        <p class="table-item-1"> <?php the_title(); ?> </p>
-        <p class="table-item-2"> &nbsp; / &nbsp; </p>
-        <p class="table-item-3"> <?php echo get_the_excerpt(); ?> </p>
+        <div class="column-1">
+            <p class="table-item-1"> <?php the_title(); ?> </p>
+            <!-- <p class="table-item-2"> &nbsp; / &nbsp; </p> -->
+        </div>
+        <div class="column-2">
+            <p class="table-item-3"> <?php echo get_the_excerpt(); ?> </p>
+        </div>
         
     </div>
     </a>
+
     <hr>
          
 
           <?php };
          
          wp_reset_query(); ?>
+ <?php 
+
+          $args = array(
+            'post_type' => 'project',
+          );
+
+          $projects = new WP_Query($args);
+          
+          while($projects -> have_posts()) {
+              $projects -> the_post();
+          
+
+
+        ?>
+
+           <a href="<?php the_permalink(); ?>">
+
+
+            <div class="d-flex table-main align-items-center flex-column flex-md-row table-item">
+        <div class="column-1">
+            <p class="table-item-1"> <?php the_title(); ?> </p>
+            <!-- <p class="table-item-2"> &nbsp; / &nbsp; </p> -->
+        </div>
+        <div class="column-2">
+            <p class="table-item-3"> <?php echo get_the_excerpt(); ?> </p>
+        </div>
+        
+    </div>
+    </a>
+
+    <hr>
+         
+
+          <?php };
+         
+         wp_reset_query(); ?>
+ <?php 
+
+          $args = array(
+            'post_type' => 'project',
+          );
+
+          $projects = new WP_Query($args);
+          
+          while($projects -> have_posts()) {
+              $projects -> the_post();
+          
+
+
+        ?>
+
+           <a href="<?php the_permalink(); ?>">
+
+
+            <div class="d-flex table-main align-items-center flex-column flex-md-row table-item">
+        <div class="column-1">
+            <p class="table-item-1"> <?php the_title(); ?> </p>
+            <!-- <p class="table-item-2"> &nbsp; / &nbsp; </p> -->
+        </div>
+        <div class="column-2">
+            <p class="table-item-3"> <?php echo get_the_excerpt(); ?> </p>
+        </div>
+        
+    </div>
+    </a>
+
+    <hr>
+         
+
+          <?php };
+         
+         wp_reset_query(); ?>
+ 
 
 
       

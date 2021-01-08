@@ -33,3 +33,9 @@ div[class^="img"] {
     background-color: rebeccapurple;
   }
 }
+
+.column-1,
+.column-2 {
+  width: 50%;
+  display: flex;
+}
