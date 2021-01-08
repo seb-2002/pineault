@@ -6,11 +6,17 @@
 ?>
 
 <div class="container">
-  <div class="heading__project">
-    <h2><?php the_title(); ?></h2>
-    <h2><?php the_excerpt(); ?></h2>
+
     
-    <a class="btn__home" href="<?php echo get_home_url(); ?>">Home</a>
+  <div class="heading__project">
+    <a class="btn__home" href="<?php echo get_home_url(); ?>"><i class="fas fa-arrow-left"></i></a>
+  
+    <h2 class="the-title"><?php the_title(); ?></h2>
+   
+    
+    <h2 class="the-subtitle"><?php the_excerpt(); ?></h2>
+    
+    
   
   </div>
   
@@ -19,6 +25,8 @@
   <div class="post-content">
     <?php the_content(); ?>
   </div>
+
+ 
 
 </div>
 

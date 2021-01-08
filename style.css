@@ -59,7 +59,8 @@ a {
 
 body {
   font-family: "NeueMontreal", sans-serif;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  color: #2c2c2d; }
 
 a {
   text-decoration: none; }
@@ -81,8 +82,19 @@ a {
   .content .table-container .table-item:hover {
     color: #ffdd00; }
 
+.the-title {
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin-top: 10vh; }
+
+.the-subtitle {
+  font-size: 3rem; }
+
+.the-caption {
+  font-size: 0.5rem; }
+
 .heading__project a.btn__home {
-  font-size: 2rem; }
+  font-size: 5rem; }
 
 @media only screen and (min-width: 576px) {
   p.footer__content--title {
@@ -164,8 +176,15 @@ div[class^="img"] {
   .red-button:hover {
     background-color: rebeccapurple; }
 
-.heading__project a.btn__home {
-  position: fixed;
-  transform: rotate(270deg);
-  top: 5rem;
-  left: 4rem; }
+.container .heading__project .btn__home i {
+  color: #2c2c2d; }
+
+.post-content {
+  margin-top: 2rem; }
+
+.the-caption {
+  margin-bottom: 4rem; }
+
+.the-credits {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }

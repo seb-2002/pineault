@@ -14,6 +14,8 @@ function pineault_setup() {
  
 
   wp_enqueue_script('boostrap.js', "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js", NULL, microtime(), true);
+  wp_enqueue_script('fontawesome.js', "https://kit.fontawesome.com/ec0d36d8d5.js", NULL, microtime(), true);
+
   wp_enqueue_script('aos.js', get_theme_file_uri () . '/node_modules/aos/dist/aos.js', NULL, microtime(), true);
 
   wp_enqueue_script('main', get_theme_file_uri('/js/main.js'), NULL, microtime(), true);
