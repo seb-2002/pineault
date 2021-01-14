@@ -205,7 +205,7 @@
             <div class="img-btm" id="anchor-scroll"></div>
             <div class="img-top" id="trigger-footer" ></div>
             <div class="img-btm"></div>
-            <div class="coloph"><img class="btm__img" src="<?php echo get_template_directory_uri(); ?>/img/btm.png" alt="btm">
+            <!-- <div class="coloph"><img class="btm__img" src="<?php echo get_template_directory_uri(); ?>/img/btm.png" alt="btm"> -->
         </div>
 
 
