@@ -187,6 +187,9 @@ div[class^="img"] {
 .post-content {
   margin-top: 2rem; }
 
+.the-title {
+  margin-top: 25vh; }
+
 .the-caption {
   margin-bottom: 4rem; }
 
@@ -196,6 +199,16 @@ div[class^="img"] {
 
 .the-language {
   display: none; }
+
+.the-gradient {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px; }
 
 .hr {
   margin-bottom: 1rem; }
@@ -214,4 +227,13 @@ div[class^="img"] {
   .hr-wide {
     display: none; }
   .the-language {
-    display: block; } }
+    display: block; }
+  .the-title {
+    margin-top: 15vh; }
+  .the-gradient {
+    margin-top: 15px;
+    margin-left: 20vw; } }
+
+@media only screen and (min-width: 1024px) {
+  .the-title {
+    margin-top: 10vh; } }
