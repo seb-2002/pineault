@@ -290,13 +290,13 @@
             <div class="row footer__content" 
             data-aos="fade-up" data-aos-anchor="#trigger-footer"
             >
-                <div class="col-md">
+                <div class="col-md-9">
                     <p class="footer__content--title">
                         Emile Pineault
                     </p>
-                    <p class="footer__content--paragraph">
+                    <div class="footer__content--paragraph row">
               <?php  the_content();?>
-                    </p>
+                    </div>
                 </div>
                 <div class="col-md">
                     <p class="footer__content--title">
@@ -319,13 +319,13 @@
             <div class="row footer__content" 
             data-aos="fade-up" data-aos-anchor="#page-bottom"
             >
-                <div class="col-md">
+       <div class="col-md-9">
                     <p class="footer__content--title">
                         Emile Pineault
                     </p>
-                    <p class="footer__content--paragraph">
+                    <div class="footer__content--paragraph row">
               <?php  the_content();?>
-                    </p>
+                    </div>
                 </div>
                 <div class="col-md">
                     <p class="footer__content--title">
