@@ -15,11 +15,22 @@ const footerTriggerPosition = footerTrigger
   : null;
 
 function controlFooter() {
-  if (footerTriggerPosition && window.pageYOffset > footerTriggerPosition) {
+  if (
+    footer &&
+    footerTrigger &&
+    footerTriggerPosition &&
+    window.pageYOffset > footerTriggerPosition
+  ) {
     myFooter.classList.add("hidden");
     myFooter.classList.remove("present");
-  } else {
+  } else if (footer && footerTrigger) {
     myFooter.classList.remove("hidden");
     myFooter.classList.add("present");
   }
 }
+
+// const postContent = document.getElementById("post-content");
+
+// window.onresize = function () {
+//   console.log(window.innerWidth);
+// };

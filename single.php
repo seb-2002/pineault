@@ -22,8 +22,8 @@
   
   <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>">
   
-  <div class="post-content">
-    <?php the_content(); ?>
+  <div id="post-content" class="post-content">
+      <?php the_content(); ?>
   </div>
 
  
