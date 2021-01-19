@@ -1,8 +1,18 @@
-.footer{
-    margin: 0 5%;
-    padding-bottom: 5%;
-    //  animation: moveInUp .5s ease-out .75s;
-    // animation-fill-mode: backwards;
-    // animation-delay: 7s;
-    pointer-events: none;
+.footer {
+  margin: 0 5%;
+  padding-bottom: 2.5%;
+  //  animation: moveInUp .5s ease-out .75s;
+  // animation-fill-mode: backwards;
+  // animation-delay: 7s;
+  pointer-events: none;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.present {
+  opacity: 1;
+  transition: opacity 0.5s;
 }

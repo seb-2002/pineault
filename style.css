@@ -141,10 +141,18 @@ a {
 
 .footer {
   margin: 0 5%;
-  padding-bottom: 5%;
+  padding-bottom: 2.5%;
   pointer-events: none; }
 
-div[class^="img"] {
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s; }
+
+.present {
+  opacity: 1;
+  transition: opacity 0.5s; }
+
+div[class*="bground_img"] {
   background-size: cover;
   width: 100%;
   max-width: 100%;
@@ -152,13 +160,21 @@ div[class^="img"] {
   position: relative;
   pointer-events: none; }
 
-.img-top {
-  height: 211vw;
-  background-image: url(./img/top_for_html.png); }
+.bground_img_1 {
+  height: 151vw;
+  background-image: url(./img/bground_img_1.png); }
 
-.img-btm {
-  background-image: url(./img/bottom_for_html.png);
-  height: 51.83vw; }
+.bground_img_2 {
+  background-image: url(./img/bground_img_2.png);
+  height: 60vw; }
+
+.bground_img_3 {
+  background-image: url(./img/bground_img_3.png);
+  height: 42vw; }
+
+.bground_img_4 {
+  background-image: url(./img/bground_img_4.png);
+  height: 10vw; }
 
 .header__img,
 .coloph .btm__img {

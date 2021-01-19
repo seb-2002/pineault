@@ -273,38 +273,71 @@
       
         <img class="header__img" src="<?php echo get_template_directory_uri(); ?>/img/newtop2021.svg" alt="header">
      
-            <div class="img-top" ></div>
-            <div class="img-btm" id="anchor-scroll"></div>
-            <div class="img-top" id="trigger-footer" ></div>
-            <div class="img-btm"></div>
-            <!-- <div class="coloph"><img class="btm__img" src="<?php echo get_template_directory_uri(); ?>/img/btm.png" alt="btm"> -->
-        </div>
+            <div class="bground_img_1" ></div>
+            <div class="bground_img_2" ></div>
+            <div class="bground_img_3"  ></div>
+            <div class="bground_img_4" id="trigger-footer"></div>
+            <div class="bground_img_1" ></div>
+            <div class="bground_img_2" id="trigger-footer-out" ></div>
+            <div class="bground_img_3" ></div>
+            <div id="page-bottom" class="bground_img_4"></div>
+ 
 
 
        <div class="container">
-    <div class="footer fixed-bottom">
-        <div class="row footer__content" 
-        data-aos="fade-up" data-aos-anchor="#trigger-footer"  data-aos-duration="800"
-        >
-            <div class="col-md">
-                <p class="footer__content--title">
-                    Emile Pineault
-                </p>
-                <p class="footer__content--paragraph">
-          <?php  the_content();?>
-                </p>
-            </div>
-            <div class="col-md">
-                <p class="footer__content--title">
-                    Contact
-                </p>
-                <p class="footer__content--paragraph">
-                    Email: emilepineault@gmail.com <br>
-                    Phone: +1 (514) 267-9531
+    <div id="myFooter" class="footer fixed-bottom">
 
-                </p>
-            </div>
-            
+            <div class="row footer__content" 
+            data-aos="fade-up" data-aos-anchor="#trigger-footer"
+            >
+                <div class="col-md">
+                    <p class="footer__content--title">
+                        Emile Pineault
+                    </p>
+                    <p class="footer__content--paragraph">
+              <?php  the_content();?>
+                    </p>
+                </div>
+                <div class="col-md">
+                    <p class="footer__content--title">
+                        Contact
+                    </p>
+                    <p class="footer__content--paragraph">
+                        Email: emilepineault@gmail.com <br>
+                        Phone: +1 (514) 267-9531
+    
+                    </p>
+                </div>
+                
+        </div>
+    </div>
+</div>
+
+       <div class="container">
+    <div  class="footer fixed-bottom">
+
+            <div class="row footer__content" 
+            data-aos="fade-up" data-aos-anchor="#page-bottom"
+            >
+                <div class="col-md">
+                    <p class="footer__content--title">
+                        Emile Pineault
+                    </p>
+                    <p class="footer__content--paragraph">
+              <?php  the_content();?>
+                    </p>
+                </div>
+                <div class="col-md">
+                    <p class="footer__content--title">
+                        Contact
+                    </p>
+                    <p class="footer__content--paragraph">
+                        Email: emilepineault@gmail.com <br>
+                        Phone: +1 (514) 267-9531
+    
+                    </p>
+                </div>
+                
         </div>
     </div>
 </div>
