@@ -152,29 +152,28 @@ a {
   opacity: 1;
   transition: opacity 0.5s; }
 
-div[class*="bground_img"] {
+.bground_img {
   background-size: cover;
   width: 100%;
   max-width: 100%;
   z-index: 1000;
   position: relative;
   pointer-events: none; }
-
-.bground_img_1 {
-  height: 151vw;
-  background-image: url(./img/bground_img_1.png); }
-
-.bground_img_2 {
-  background-image: url(./img/bground_img_2.png);
-  height: 60vw; }
-
-.bground_img_3 {
-  background-image: url(./img/bground_img_3.png);
-  height: 42vw; }
-
-.bground_img_4 {
-  background-image: url(./img/bground_img_4.png);
-  height: 10vw; }
+  .bground_img_header {
+    background-image: url("./img/newtop2021.svg");
+    height: 11vw; }
+  .bground_img_1 {
+    height: 151vw;
+    background-image: url("./img/bground_img_1.png"); }
+  .bground_img_2 {
+    background-image: url("./img/bground_img_2.png");
+    height: 60vw; }
+  .bground_img_3 {
+    background-image: url("./img/bground_img_3.png");
+    height: 42vw; }
+  .bground_img_4 {
+    background-image: url("./img/bground_img_4.png");
+    height: 10vw; }
 
 .header__img,
 .coloph .btm__img {

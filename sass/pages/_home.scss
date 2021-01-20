@@ -1,26 +1,28 @@
-div[class*="bground_img"] {
+.bground_img {
   background-size: cover;
   width: 100%;
   max-width: 100%;
   z-index: 1000;
   position: relative;
   pointer-events: none;
-}
-.bground_img {
+  &_header {
+    background-image: url("./img/newtop2021.svg");
+    height: 11vw;
+  }
   &_1 {
     height: 151vw;
-    background-image: url(./img/bground_img_1.png);
+    background-image: url("./img/bground_img_1.png");
   }
   &_2 {
-    background-image: url(./img/bground_img_2.png);
+    background-image: url("./img/bground_img_2.png");
     height: 60vw;
   }
   &_3 {
-    background-image: url(./img/bground_img_3.png);
+    background-image: url("./img/bground_img_3.png");
     height: 42vw;
   }
   &_4 {
-    background-image: url(./img/bground_img_4.png);
+    background-image: url("./img/bground_img_4.png");
     height: 10vw;
   }
 }

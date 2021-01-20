@@ -271,16 +271,16 @@
 
   
       
-        <img class="header__img" src="<?php echo get_template_directory_uri(); ?>/img/newtop2021.svg" alt="header">
-     
-            <div class="bground_img_1" ></div>
-            <div class="bground_img_2" ></div>
-            <div class="bground_img_3"  ></div>
-            <div class="bground_img_4" id="trigger-footer"></div>
-            <div class="bground_img_1" ></div>
-            <div class="bground_img_2" id="trigger-footer-out" ></div>
-            <div class="bground_img_3" ></div>
-            <div id="page-bottom" class="bground_img_4"></div>
+        <!-- <img class="header__img" src="<?php echo get_template_directory_uri(); ?>/img/newtop2021.svg" alt="header"> -->
+            <div class="bground_img bground_img_header"></div>
+            <div class="bground_img bground_img_1" ></div>
+            <div class="bground_img bground_img_2" ></div>
+            <div class="bground_img bground_img_3"  ></div>
+            <div class="bground_img bground_img_4" id="trigger-footer"></div>
+            <div class="bground_img bground_img_1" ></div>
+            <div class="bground_img bground_img_2" id="trigger-footer-out" ></div>
+            <div class="bground_img bground_img_3" ></div>
+            <div id="page-bottom" class="bground_img bground_img_4"></div>
  
 
 
