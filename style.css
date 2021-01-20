@@ -161,7 +161,8 @@ a {
   pointer-events: none; }
   .bground_img_header {
     background-image: url("./img/newtop2021.svg");
-    height: 11vw; }
+    height: 11vw;
+    background-color: #f6f6f6; }
   .bground_img_1 {
     height: 151vw;
     background-image: url("./img/bground_img_1.png"); }
@@ -174,14 +175,6 @@ a {
   .bground_img_4 {
     background-image: url("./img/bground_img_4.png");
     height: 10vw; }
-
-.header__img,
-.coloph .btm__img {
-  width: 100%;
-  max-width: 100%;
-  position: relative;
-  z-index: 1000;
-  background-color: #f6f6f6; }
 
 .red-button {
   width: 50%;

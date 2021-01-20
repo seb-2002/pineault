@@ -8,6 +8,7 @@
   &_header {
     background-image: url("./img/newtop2021.svg");
     height: 11vw;
+    background-color: $col-background;
   }
   &_1 {
     height: 151vw;
@@ -27,14 +28,14 @@
   }
 }
 
-.header__img,
-.coloph .btm__img {
-  width: 100%;
-  max-width: 100%;
-  position: relative;
-  z-index: 1000;
-  background-color: $col-background;
-}
+// .header__img,
+// .coloph .btm__img {
+//   width: 100%;
+//   max-width: 100%;
+//   position: relative;
+//   z-index: 1000;
+
+// }
 
 .red-button {
   width: 50%;
