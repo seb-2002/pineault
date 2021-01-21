@@ -6,6 +6,19 @@
   margin-top: 2rem;
 }
 
+.the-arrow {
+  height: 62px;
+  width: 57px;
+  margin-top: 5rem;
+  background-image: url("./img/arrow_ep.svg");
+  &:hover {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+}
+
 .the-title {
   margin-top: 25vh;
 }
@@ -14,8 +27,14 @@
   margin-bottom: 4rem;
 }
 
+.the-hr {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  border-top: 0.5px solid $col-text;
+}
+
 .the-credits {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   margin-bottom: 4rem;
 }
 
@@ -63,7 +82,7 @@
     margin-top: 15vh;
   }
   .the-gradient {
-    margin-top: 15px;
+    margin-top: 1px;
     margin-left: 20vw;
   }
 }

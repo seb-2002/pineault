@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-            <div class="bground_img header__img bground_img_header"></div>
+            <div class="bground_img bground_img_header"></div>
             <div class="bground_img bground_img_1" ></div>
             <div class="bground_img bground_img_2" ></div>
             <div class="bground_img bground_img_3"  ></div>

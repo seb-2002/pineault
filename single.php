@@ -9,7 +9,9 @@
 
     
   <div class="heading__project">
-    <a class="btn__home" href="<?php echo get_home_url(); ?>"><i class="fas fa-arrow-left"></i></a>
+    <a class="btn__home" href="<?php echo get_home_url(); ?>">
+  <div class="the-arrow"></div>
+  </a>
   
     <h2 class="the-title"><?php the_title(); ?></h2>
    
