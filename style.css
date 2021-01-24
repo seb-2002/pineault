@@ -160,21 +160,21 @@ a {
   position: relative;
   pointer-events: none; }
   .bground_img_header {
-    background-image: url("./img/newtop2021.svg");
-    height: 11vw;
+    background-image: url("./img/HEADmobile_.jpg");
+    height: 26vw;
     background-color: #f6f6f6; }
   .bground_img_1 {
-    height: 151vw;
-    background-image: url("./img/bground_img_1.png"); }
+    height: 302vw;
+    background-image: url("./img/BODY1mobile.jpg"); }
   .bground_img_2 {
-    background-image: url("./img/bground_img_2.png");
-    height: 60vw; }
+    background-image: url("./img/BODY2mobile.png");
+    height: 120vw; }
   .bground_img_3 {
-    background-image: url("./img/bground_img_3.png");
-    height: 42vw; }
+    background-image: url("./img/BODY3mobile.png");
+    height: 84vw; }
   .bground_img_4 {
-    background-image: url("./img/bground_img_4.png");
-    height: 10vw; }
+    background-image: url("./img/FOOTERmobile.jpg");
+    height: 20vw; }
 
 .red-button {
   width: 50%;
@@ -189,6 +189,23 @@ a {
   width: 50%;
   display: flex; }
 
+@media only screen and (min-width: 768px) {
+  .bground_img_header {
+    background-image: url("./img/newtop2021.svg");
+    height: 11vw; }
+  .bground_img_1 {
+    height: 151vw;
+    background-image: url("./img/bground_img_1.png"); }
+  .bground_img_2 {
+    background-image: url("./img/bground_img_2.png");
+    height: 60vw; }
+  .bground_img_3 {
+    background-image: url("./img/bground_img_3.png");
+    height: 42vw; }
+  .bground_img_4 {
+    background-image: url("./img/bground_img_4.png");
+    height: 10vw; } }
+
 .container .heading__project .btn__home i {
   color: #2c2c2d; }
 
@@ -202,7 +219,7 @@ a {
   background-image: url("./img/arrow_ep.svg"); }
   .the-arrow:hover {
     animation-name: floating;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out; }
 

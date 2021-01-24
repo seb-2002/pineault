@@ -6,25 +6,25 @@
   position: relative;
   pointer-events: none;
   &_header {
-    background-image: url("./img/newtop2021.svg");
-    height: 11vw;
+    background-image: url("./img/HEADmobile_.jpg");
+    height: 26vw;
     background-color: $col-background;
   }
   &_1 {
-    height: 151vw;
-    background-image: url("./img/bground_img_1.png");
+    height: 302vw;
+    background-image: url("./img/BODY1mobile.jpg");
   }
   &_2 {
-    background-image: url("./img/bground_img_2.png");
-    height: 60vw;
+    background-image: url("./img/BODY2mobile.png");
+    height: 120vw;
   }
   &_3 {
-    background-image: url("./img/bground_img_3.png");
-    height: 42vw;
+    background-image: url("./img/BODY3mobile.png");
+    height: 84vw;
   }
   &_4 {
-    background-image: url("./img/bground_img_4.png");
-    height: 10vw;
+    background-image: url("./img/FOOTERmobile.jpg");
+    height: 20vw;
   }
 }
 
@@ -51,4 +51,29 @@
 .column-2 {
   width: 50%;
   display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .bground_img {
+    &_header {
+      background-image: url("./img/newtop2021.svg");
+      height: 11vw;
+    }
+    &_1 {
+      height: 151vw;
+      background-image: url("./img/bground_img_1.png");
+    }
+    &_2 {
+      background-image: url("./img/bground_img_2.png");
+      height: 60vw;
+    }
+    &_3 {
+      background-image: url("./img/bground_img_3.png");
+      height: 42vw;
+    }
+    &_4 {
+      background-image: url("./img/bground_img_4.png");
+      height: 10vw;
+    }
+  }
 }
