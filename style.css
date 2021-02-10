@@ -71,7 +71,7 @@ a {
   font-family: "HKSentiments-Bold", sans-serif; }
 
 .footer__content--title {
-  font-size: 1.2rem; }
+  font-size: 2rem; }
 
 .content .table-container .table-item {
   color: #2c2c2d;
@@ -97,8 +97,6 @@ a {
   font-size: 5rem; }
 
 @media only screen and (min-width: 576px) {
-  p.footer__content--title {
-    font-size: 2rem; }
   p.footer__content--paragraph {
     font-size: 1.2rem; } }
 

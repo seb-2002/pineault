@@ -44,7 +44,7 @@ function runMediaQuery() {
     footerTriggerOutPosition -= 500;
   } else if (width >= 375) {
     footerTriggerIn1Position -= 250;
-    footerTriggerOutPosition -= 250;
+    footerTriggerOutPosition -= 500;
   }
 }
 

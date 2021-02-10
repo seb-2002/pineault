@@ -51,7 +51,7 @@ a {
 .footer {
   &__content {
     &--title {
-      font-size: $fontSize-body;
+      font-size: $fontSize-body-sm;
     }
   }
 }
@@ -95,9 +95,6 @@ a {
 @media only screen and (min-width: 576px) {
   p.footer {
     &__content {
-      &--title {
-        font-size: $fontSize-body-sm;
-      }
       &--paragraph {
         font-size: $fontSize-small;
       }
