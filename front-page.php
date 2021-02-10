@@ -4,7 +4,7 @@
             <div class="bground_img bground_img_1" ></div>
             <div class="bground_img bground_img_2" ></div>
             <div class="bground_img bground_img_3"  ></div>
-            <div class="bground_img bground_img_4" id="trigger-footer"></div>
+            <div class="bground_img bground_img_4" id="trigger-footer-in-1"></div>
             <div class="bground_img bground_img_1" ></div>
             <div class="bground_img bground_img_2" id="trigger-footer-out" ></div>
             <div class="bground_img bground_img_3" ></div>
@@ -294,10 +294,10 @@
 
 
        <div class="container">
-    <div id="myFooter" class="footer fixed-bottom">
+    <div id="myFooter" class="footer fixed-bottom hidden">
 
             <div class="row footer__content" 
-            data-aos="fade-up" data-aos-anchor="#trigger-footer"
+           
             >
                 <div class="col-md-9">
                     <p class="footer__content--title">
@@ -322,7 +322,7 @@
     </div>
 </div>
 
-       <div class="container">
+       <!-- <div class="container">
     <div  class="footer fixed-bottom">
 
             <div class="row footer__content" 
@@ -350,7 +350,7 @@
         </div>
     </div>
 </div>
-    
+     -->
    
        <?php get_footer(); ?>
     
