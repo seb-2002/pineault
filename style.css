@@ -122,7 +122,7 @@ a {
     .content .table-container p {
       overflow: hidden;
       cursor: url("./img/ep_cursor_small.png"), default;
-      text-align: center;
+      text-align: left;
       margin-bottom: 0.2rem;
       margin-top: 0.2rem; }
       .content .table-container p.table-item-1, .content .table-container p.table-item-3 {
@@ -186,10 +186,13 @@ a {
 
 .column-1,
 .column-2 {
-  width: 50%;
+  width: 100%;
   display: flex; }
 
 @media only screen and (min-width: 768px) {
+  .column-1,
+  .column-2 {
+    width: 50%; }
   .bground_img_header {
     background-image: url("./img/newtop2021.svg");
     height: 11vw; }
