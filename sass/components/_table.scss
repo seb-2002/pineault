@@ -18,7 +18,7 @@
       margin-bottom: 0.2rem;
       margin-top: 0.2rem;
       &.table-item-1,
-      &.table-item-2 {
+      &.table-item-3 {
         width: 100%;
       }
       &.table-item-2 {
@@ -36,10 +36,8 @@
 
 @media only screen and (min-width: 768px) {
   .content .table-container {
-    p.table-item {
-      &-2 {
-        display: inline;
-      }
+    p {
+      text-align: left;
     }
   }
 }

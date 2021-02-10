@@ -33,7 +33,10 @@ function runMediaQuery() {
   const width = window.innerWidth;
   const height = window.innerHeight;
   console.log(width);
-  if (width >= 1024 && height >= 1360) {
+  if (width > 1450) {
+    footerTriggerIn1Position -= 500;
+    footerTriggerOutPosition -= 400;
+  } else if (width >= 1024 && height >= 1360) {
     footerTriggerIn1Position -= 1050;
     footerTriggerOutPosition -= 1000;
   } else if (width >= 768) {

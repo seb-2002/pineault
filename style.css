@@ -127,7 +127,7 @@ a {
       text-align: center;
       margin-bottom: 0.2rem;
       margin-top: 0.2rem; }
-      .content .table-container p.table-item-1, .content .table-container p.table-item-2 {
+      .content .table-container p.table-item-1, .content .table-container p.table-item-3 {
         width: 100%; }
       .content .table-container p.table-item-2 {
         display: none; }
@@ -138,8 +138,8 @@ a {
       margin: 0px; }
 
 @media only screen and (min-width: 768px) {
-  .content .table-container p.table-item-2 {
-    display: inline; } }
+  .content .table-container p {
+    text-align: left; } }
 
 .footer {
   margin: 0 5%;
