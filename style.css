@@ -152,6 +152,10 @@ a {
   opacity: 1;
   transition: opacity 0.5s; }
 
+@media only screen and (min-width: 768px) {
+  #footer-line-break {
+    display: none; } }
+
 .bground_img {
   background-size: cover;
   width: 100%;

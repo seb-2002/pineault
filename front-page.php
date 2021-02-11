@@ -344,6 +344,7 @@
                     </div>
                 </div>
                 <div class="col-md">
+                    <br id="footer-line-break">
                     <p class="footer__content--title">
                         Contact
                     </p>
